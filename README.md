@@ -27,6 +27,7 @@ By putting the obvious factors into consideration we was able to design a device
 <li>MICROSD ADAPTER</li>
 </ul>
 #### ARDUINO UNO r3
+<br>
 Arduino Uno Rev3 is a microcontroller board based on the ATmega328P . It
 has 14 digital input/output pins , 6 analog
 inputs, It contains everything needed to support the
