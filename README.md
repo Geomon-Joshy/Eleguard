@@ -118,5 +118,6 @@ The circuit is designed in shuch a way that while a switch (data set switch) ont
 A tree falling down will fail this condition. Hence if two sensors showing variation with above condition will only be a elephant moving through. If both the sensor pairs satisfies the above condition it means that more than one elphant is moving through. A few lines of code is to make sure that small changes like leaf falling down are neglected. This detection can be made further accurate by adding one more sensor frame such that an entire frame is dedicated to finding the prescance of an elephant. An infrasound sound sensor can also be added to guaranty that it is an elephant.
   <br>
   On processing this data a pair of speakers gives out 3-D sounds as if the sounds are from deep inside the forest. A female matting call is played if only one elephant is present and a voice of watering call is played if there is a heard of elephants. The elephants on hearing these voices,thinks they are from deep forest and will be tricked to returning to the forest. Meanwhile the authoraties will be updated on the information and message are sent to the village to be vigillant. 
-## CONCLUSION
+<br>
+
   In summary we have created a device that will detect the prescance of elephants using ultrasonic sensors and tricks them to return to the forest using the power of 3-d sound. This method is not only more effective and ecnomical but also not at all harmfull to any. 
