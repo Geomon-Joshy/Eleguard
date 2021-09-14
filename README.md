@@ -35,8 +35,6 @@ microcontroller; simply connect it to a computer with a USB cable or power it wi
 AC-to-DC adapter or battery to get started.. You can tinker with your Uno without
 worrying too much about doing something wrong, worst case scenario you can replace
 <br>
-![image](https://user-images.githubusercontent.com/88607869/133227767-b18b3989-ed3d-4153-a26b-8718f1f58ba6.png)
-<br>
 ULTRASONIC SENSOR
 <br>
 This ultrasonic sensor module can be used for measuring distance, object
@@ -48,8 +46,6 @@ detects whether it receives the returning signal. If there is a signal
 returning, a high level pulse is sent on the echo pin. The length of this pulse
 is the time it took the signal from first triggering to the return echo.
 <br>
-![alt text](https://user-images.githubusercontent.com/88607869/133228110-57a6ffba-ff91-4ec5-ad29-83b20e8a5f20.png)
-<br>
 MICROSD ADAPTER
 <br>
 Micro SD Card Reader Module also called Micro SD Adaptor is designed for
@@ -60,6 +56,3 @@ interface which is compatible with any sd card and it uses 5V or 3.3V power35
 supply which is compatible with Arduino UNO/Mega.SD module has various
 applications such as data logger, audio, video, graphics. 
 <br>
-![image](https://user-images.githubusercontent.com/88607869/133228419-b84954c9-c5e5-4a14-951d-0b7e983cd2fe.png)
-<br>
- <img src="(https://user-images.githubusercontent.com/88607869/133228419-b84954c9-c5e5-4a14-951d-0b7e983cd2fe.png" alt="alternatetext"> 
