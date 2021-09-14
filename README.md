@@ -73,17 +73,24 @@ r[i] = pulseIn(i, HIGH);
 }
 ```                        
 
-This part of the code is were the live data from the sensors is entered into a array 
+This part of the code is were the live data from the sensors is entered into a array <code>r[i]</code>.
+The circuit is designed in such a way that the output. <code>pin 2</code> of arduino is connected to <code>Triggpin</code> of all the sensors. There will be a delay in the range of microseconds between the data intake of each sensors, But this will not be an issue while compared to the speed of elephants.\
 
-```r[i]```
-The circuit is designed in such a way that the output 
+``` c++
+q=digitalRead(A0);
+while(q==HIGH) //setting switch
+{
+a=r[3];
+//setting distance
+b=r[4];
+c=r[5];
+d=r[6];
+e=1;
+digitalWrite(A5,HIGH); //set led
+delay(1000);
+digitalWrite(A5,LOW);
+}
+```
+This is the part of the circuit were the values from the 4 sensors is added to 4 variables <code>a b c d </code>
 
-```pin 2```
-of arduino is connected to 
-
-```Triggpin``` of all the sensors. There will be a delay in the range of microseconds between the data intake of each sensors, But this will not be an issue while compared to the speed of elephants.\
-
-
-
-
-                
+             
