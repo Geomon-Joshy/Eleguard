@@ -59,7 +59,7 @@ applications such as data logger, audio, video, graphics.
 ### Coding part
 DATA SETTING
 <br>
-<code block>
+'''
 for(i=3;i<7;i++)
 {
 digitalWrite(2, LOW);
@@ -70,4 +70,4 @@ delayMicroseconds(10);
 digitalWrite(2, LOW);
 r[i] = pulseIn(i, HIGH);
 }
-</code block>
+'''
