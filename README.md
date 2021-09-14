@@ -62,7 +62,7 @@ DATA SETTING
 <code>
 for(i=3;i<7;i++)
 {
-digitalWrite(2, LOW);
+digitalWrite(2, LOW);\
 //triggerpin pulse
 delayMicroseconds(2);
 digitalWrite(2, HIGH);
