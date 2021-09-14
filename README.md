@@ -91,8 +91,5 @@ delay(1000);
 digitalWrite(A5,LOW);
 }
 ```
-This is the part of the circuit were the values from the 4 sensors is added to 4 variables <code>a b c d </code>  while a variable <code>q</code> is ``` c++ 
-HIGH ```
-
-
-             
+This is the part of the circuit were the values from the 4 sensors is added to 4 variables <code>a b c d </code>  while a variable <code>q</code> is ``` 
+HIGH ```. The value of ```q``` is ```digitalRead(A0)``` (That is q is the digitalvalue of the voltage in data set switch). The circuit is build in such a way that that the sensor data is entered in to permenent variables when a switch is pressed.
