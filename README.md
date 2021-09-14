@@ -19,3 +19,8 @@ These days, Unhealthy interactions between elephants and human cultivations are 
 </ul>
 By putting the obvious factors into consideration we was able to design a device (Using simple ultra_sonic sensores and Arduino) to detect the precesence of elephants (Herds and  bulls separately). Using this information we trigger a 3-d speaker which produces sounds of watering hole (for herds of elephants) and female matting calls (For bull elephans).THe speakers are set in such a way that the sound seems to appearing from deep inside the forest and the elephants are tricked to be returning to the forest following the  imaginary voices from the speakers. 
 `
+## WORKING
+### Hardware
+<ul>
+<li></li>
+</ul>
