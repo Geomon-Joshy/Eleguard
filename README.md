@@ -59,8 +59,9 @@ applications such as data logger, audio, video, graphics.
 ### Coding part
 DATA SETTING
 <br>
-<code>for(i=3;i<7;i++)              <br>
-{                             </code><br>
+```ruby
+<code>for(i=3;i<7;i++)              </code><br>
+<code>{                             </code><br>
 <code>digitalWrite(2, LOW);         </code><br>
 <code>//triggerpin pulse            </code><br>
 <code>delayMicroseconds(2);         </code><br>
@@ -68,5 +69,7 @@ DATA SETTING
 <code>delayMicroseconds(10);        </code><br>
 <code>digitalWrite(2, LOW);         </code><br>
 <code>r[i] = pulseIn(i, HIGH);      </code><br>
-<code>}                             </code><br>
+<code>}    ```                         </code><br>
+This part of the code is were   
+
                 
