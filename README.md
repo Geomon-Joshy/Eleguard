@@ -59,17 +59,17 @@ applications such as data logger, audio, video, graphics.
 ### Coding part
 DATA SETTING
 <br>
-```ruby
-<code>for(i=3;i<7;i++)              </code><br>
-<code>{                             </code><br>
-<code>digitalWrite(2, LOW);         </code><br>
-<code>//triggerpin pulse            </code><br>
-<code>delayMicroseconds(2);         </code><br>
-<code>digitalWrite(2, HIGH);        </code><br>
-<code>delayMicroseconds(10);        </code><br>
-<code>digitalWrite(2, LOW);         </code><br>
-<code>r[i] = pulseIn(i, HIGH);      </code><br>
-<code>}    ```                         </code><br>
+```c++
+for(i=3;i<7;i++)             
+{                             
+digitalWrite(2, LOW);        
+//triggerpin pulse           
+elayMicroseconds(2);        
+digitalWrite(2, HIGH);
+delayMicroseconds(10);        
+digitalWrite(2, LOW);
+r[i] = pulseIn(i, HIGH);    
+\}    ```                        
 This part of the code is were   
 
                 
