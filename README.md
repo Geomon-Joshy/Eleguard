@@ -34,6 +34,9 @@ inputs, It contains everything needed to support the
 microcontroller; simply connect it to a computer with a USB cable or power it with a28
 AC-to-DC adapter or battery to get started.. You can tinker with your Uno without
 worrying too much about doing something wrong, worst case scenario you can replace
+
+![image](https://user-images.githubusercontent.com/88607869/133260521-416d0ba3-3e42-4148-bde2-434d3a2ff60d.png)
+
 <br>
 ULTRASONIC SENSOR
 <br>
@@ -45,6 +48,8 @@ The module sends eight 40Khz square wave pulses and automatically
 detects whether it receives the returning signal. If there is a signal
 returning, a high level pulse is sent on the echo pin. The length of this pulse
 is the time it took the signal from first triggering to the return echo.
+
+![image](https://user-images.githubusercontent.com/88607869/133260606-bafaf906-b539-42b4-9b79-e05b46671070.png)
 <br>
 MICROSD ADAPTER
 <br>
@@ -55,6 +60,8 @@ but can also be used with other microcontrollers. This module has SPI
 interface which is compatible with any sd card and it uses 5V or 3.3V power35
 supply which is compatible with Arduino UNO/Mega.SD module has various
 applications such as data logger, audio, video, graphics. 
+
+![image](https://user-images.githubusercontent.com/88607869/133260737-0ac53cf1-7d87-40a0-aeb1-91f111f6e6f9.png)
 <br>
 ### Coding part
 DATA SETTING
