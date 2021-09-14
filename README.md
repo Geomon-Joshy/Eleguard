@@ -26,7 +26,7 @@ By putting the obvious factors into consideration we was able to design a device
 <li>ULTRASONIC SENSOR</li>
 <li>MICROSD ADAPTER</li>
 </ul>
-#### ARDUINO UNO r3
+ARDUINO UNO r3
 <br>
 Arduino Uno Rev3 is a microcontroller board based on the ATmega328P . It
 has 14 digital input/output pins , 6 analog
@@ -34,8 +34,11 @@ inputs, It contains everything needed to support the
 microcontroller; simply connect it to a computer with a USB cable or power it with a28
 AC-to-DC adapter or battery to get started.. You can tinker with your Uno without
 worrying too much about doing something wrong, worst case scenario you can replace
+<br>
 ![image](https://user-images.githubusercontent.com/88607869/133227767-b18b3989-ed3d-4153-a26b-8718f1f58ba6.png)
-#### ULTRASONIC SENSOR
+<br>
+ULTRASONIC SENSOR
+<br>
 This ultrasonic sensor module can be used for measuring distance, object
 sensor, motion sensors etc. High-sensitive modules can be used with33
 microcontrollers to integrate with motion circuits to make robotic projects
@@ -44,8 +47,11 @@ The module sends eight 40Khz square wave pulses and automatically
 detects whether it receives the returning signal. If there is a signal
 returning, a high level pulse is sent on the echo pin. The length of this pulse
 is the time it took the signal from first triggering to the return echo.
+<br>
 ![image](https://user-images.githubusercontent.com/88607869/133228110-57a6ffba-ff91-4ec5-ad29-83b20e8a5f20.png)
-#### MICROSD ADAPTER
+<br>
+MICROSD ADAPTER
+<br>
 Micro SD Card Reader Module also called Micro SD Adaptor is designed for
 dual I/O voltages. This Module is a simple solution for transferring data to
 and from a standard SD card. The pinout is directly compatible with Arduino,
@@ -53,4 +59,6 @@ but can also be used with other microcontrollers. This module has SPI
 interface which is compatible with any sd card and it uses 5V or 3.3V power35
 supply which is compatible with Arduino UNO/Mega.SD module has various
 applications such as data logger, audio, video, graphics. 
+<br>
 ![image](https://user-images.githubusercontent.com/88607869/133228419-b84954c9-c5e5-4a14-951d-0b7e983cd2fe.png)
+<br>
