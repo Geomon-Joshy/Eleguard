@@ -59,15 +59,14 @@ applications such as data logger, audio, video, graphics.
 ### Coding part
 DATA SETTING
 <br>
-<code>
-for(i=3;i<7;i++)
-{
-digitalWrite(2, LOW);
-//triggerpin pulse
-delayMicroseconds(2);
-digitalWrite(2, HIGH);
-delayMicroseconds(10);
-digitalWrite(2, LOW);
-r[i] = pulseIn(i, HIGH);
-}
-                 </code>
+<code>for(i=3;i<7;i++)              </code>
+<code>{                             </code>
+<code>digitalWrite(2, LOW);         </code>
+<code>//triggerpin pulse            </code>
+<code>delayMicroseconds(2);         </code>
+<code>digitalWrite(2, HIGH);        </code>
+<code>delayMicroseconds(10);        </code>
+<code>digitalWrite(2, LOW);         </code>
+<code>r[i] = pulseIn(i, HIGH);      </code>
+<code>}                             </code>
+                
