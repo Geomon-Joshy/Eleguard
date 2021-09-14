@@ -61,18 +61,29 @@ DATA SETTING
 <br>
 
 ```c++
-for(i=3;i<7;i++)             
-{                             
-digitalWrite(2, LOW);        
-//triggerpin pulse           
-elayMicroseconds(2);        
-digitalWrite(2, HIGH);
-delayMicroseconds(10);        
+for(i=3;i<7;i++)
+{
 digitalWrite(2, LOW);
-r[i] = pulseIn(i, HIGH);    
-} 
+//triggerpin pulse
+delayMicroseconds(2);
+digitalWrite(2, HIGH);
+delayMicroseconds(10);
+digitalWrite(2, LOW);
+r[i] = pulseIn(i, HIGH);
+}
 ```                        
 
-This part of the code is were   
+This part of the code is were the live data from the sensors is entered into a array 
+
+```r[i]```
+The circuit is designed in such a way that the output 
+
+```pin 2```
+of arduino is connected to 
+
+```Triggpin``` of all the sensors. There will be a delay in the range of microseconds between the data intake of each sensors, But this will not be an issue while compared to the speed of elephants.\
+
+
+
 
                 
