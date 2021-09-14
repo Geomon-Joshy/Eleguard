@@ -98,4 +98,18 @@ HIGH ```. The value of ```q``` is ```digitalRead(A0)``` (That is q is the digita
 A set of 4 four ultrosonic sensors is placed on the vertices of a square like frame. The frame is set between the cross-roads between the forest and village such that sensor is pointed perpendicular to the path between forest and human settlement.
 
 ![image](https://user-images.githubusercontent.com/88607869/133255183-2fac2330-57e7-4ac5-8568-00a397abd5fa.png)
+<br>
+The frame of the sensor set is as per the i,age shown below:-
 
+![image](https://user-images.githubusercontent.com/88607869/133256301-66e7f3c0-d7fd-487b-8252-5ddac4007322.png)
+<br>
+The circuit is designed in shuch a way that while a switch (data set switch) onthe PCB is pressed the sensors read the distance between sensors and the next closest object(tress across the path) is entered into 4 different variables <code> a b c d</code>  . The sensors continusly monitors this pathway and compares with <code>a b c d</code> if there is any changes in the distance measured a certain logics occur. The logic behind this is such that if two sensor on the same side of the plane (Sensor 1 and 2) will only show variation at the same time if a tall object changes place . which can either be an elephant moving through or a tree falling. On further addition of code we are negleting the chance of tree falling . This done by doing the following :- if a sensor (sensor 1) shows variation a reaction is only made if and only if 
+<ol>
+  <li> If the sensor pair (sensor - 2) shows variation</li>
+  <li> if the sensor pair (sensor -2) shows a distance that is in the proximity of the first sensor(sensor -1)</li>
+<ol>
+A tree falling down will fail this condition. Hence if two sensors showing variation with above condition will only be a elephant moving through. If both the sensor pairs satisfies the above condition it means that more than one elphant is moving through. A few lines of code is to make sure that small changes like leaf falling down are neglected. This detection can be made further accurate by adding one more sensor frame such that an entire frame is dedicated to finding the prescance of an elephant. An infrasound sound sensor can also be added to guaranty that it is an elephant.
+  <br>
+  On processing this data a pair of speakers gives out 3-D sounds as if the sounds are from deep inside the forest. A female matting call is played if only one elephant is present and a voice of watering call is played if there is a heard of elephants. The elephants on hearing these voices,thinks they are from deep forest and will be tricked to returning to the forest. Meanwhile the authoraties will be updated on the information and message are sent to the village to be vigillant. 
+## CONCLUSION
+  In summary we have created a device that will detect the prescance of elephants using ultrasonic sensors and tricks them to return to the forest using the power of 3-d sound. This method is not only more effective and ecnomical but also not at all harmfull to any. 
