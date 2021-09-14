@@ -56,3 +56,18 @@ interface which is compatible with any sd card and it uses 5V or 3.3V power35
 supply which is compatible with Arduino UNO/Mega.SD module has various
 applications such as data logger, audio, video, graphics. 
 <br>
+### Coding part
+DATA SETTING
+<br>
+<code block>
+for(i=3;i<7;i++)
+{
+digitalWrite(2, LOW);
+//triggerpin pulse
+delayMicroseconds(2);
+digitalWrite(2, HIGH);
+delayMicroseconds(10);
+digitalWrite(2, LOW);
+r[i] = pulseIn(i, HIGH);
+}
+</code block>
