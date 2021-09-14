@@ -48,7 +48,7 @@ detects whether it receives the returning signal. If there is a signal
 returning, a high level pulse is sent on the echo pin. The length of this pulse
 is the time it took the signal from first triggering to the return echo.
 <br>
-[image](https://user-images.githubusercontent.com/88607869/133228110-57a6ffba-ff91-4ec5-ad29-83b20e8a5f20.png)
+![alt text](https://user-images.githubusercontent.com/88607869/133228110-57a6ffba-ff91-4ec5-ad29-83b20e8a5f20.png)
 <br>
 MICROSD ADAPTER
 <br>
