@@ -91,8 +91,8 @@ delay(1000);
 digitalWrite(A5,LOW);
 }
 ```
-This is the part of the circuit were the values from the 4 sensors is added to 4 variables <code>a b c d </code>  while a variable <code>q</code> is ''' c++ 
-HIGH '''
+This is the part of the circuit were the values from the 4 sensors is added to 4 variables <code>a b c d </code>  while a variable <code>q</code> is ``` c++ 
+HIGH ```
 
 
              
