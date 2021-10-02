@@ -7,7 +7,7 @@ SHINTU SURESH <br>
 GEOMON JOSHY** <br>
 
 ## AIM
-The motive of this project is to build an echo friendly , ecnomical device to minimise interactions between wild elephants and human cultivations without causing any physical or any other modes of losts to both parties.
+The motive of this project is to build an echo friendly ,  economical device to minimise interactions between wild elephants and human cultivations without causing any physical or any other modes of losts to both parties.
 
 ## ABSTRACT
 These days, Unhealthy interactions between elephants and human cultivations are really common. Allthough there are measures taken to prevent this they are not very effective. Hence we have build a device to do this.<br>
